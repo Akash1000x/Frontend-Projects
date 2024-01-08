@@ -40,10 +40,10 @@ function checkGameOver(){
                 gameInfo.innerText = `Winner player - X`;
             }
             else{
-                gameInfo.innerText = `Winner player - X`;
+                gameInfo.innerText = `Winner player - O`;
             }
 
-            console.log(currentPlayer);
+
 
             newGameBtn.classList.add("active");
             boxes[winPatterns[i][0]].classList.add("win");
